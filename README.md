@@ -18,7 +18,8 @@ $ jcall <fq class name> <method name> <method descriptor> <args>
 ```
 
 ```sh
-$ jcall java.lang.Integer tryParse (Ljava/lang/String;)I 12345
-java.lang.Integer.tryParse("12345");
+$ jcall java.lang.Integer parseInt (Ljava/lang/String;)I 12345
+java.lang.Integer.parseInt("12345");
+
 12345
 ```
